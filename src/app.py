@@ -7,6 +7,10 @@ from sentiment_analysis import analyze_sentiment
 from financial_engine import get_financial_pulse, get_sector_performance
 # Import the new portfolio engine
 from portfolio_engine import optimize_portfolio 
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
 
 # 1. SETUP
 st.set_page_config(page_title="MarketPulse Pro", layout="wide", page_icon="🛡️")
