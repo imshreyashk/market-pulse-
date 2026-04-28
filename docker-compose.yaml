@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+    restart: always
+
+  alert_bot:
+    build: .
+    command: python src/telegram_alerts.py
+    environment:
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - CHAT_ID=${CHAT_ID}
+    restart: always

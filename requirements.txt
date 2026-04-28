@@ -1,0 +1,18 @@
+#Data & Finance
+yfinance
+pandas
+requests
+beautifulsoup4
+
+#Transofomation and embeddings AI & NLP(The heavy machinery)
+transformers
+torch
+
+#MLOps & Tracking
+mlflow
+
+#Optional but helpful for future steps
+streamlit
+python-dotenv
+plotly
+
