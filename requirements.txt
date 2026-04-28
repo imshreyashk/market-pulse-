@@ -5,3 +5,5 @@ yfinance
 beautifulsoup4
 textblob
 requests
+transformers
+torch
