@@ -1,4 +1,3 @@
-from matplotlib import ticker
 import requests
 from bs4 import BeautifulSoup
 
